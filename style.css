@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -25,11 +25,11 @@ body {
     text-align: center;
 }
 
-label{
+label {
     font-size: clamp(1rem, 100vw, 1.2rem);
 }
 
-input{
+input {
     width: 15rem;
     padding: 10px 0.2rem;
     border: none;
@@ -49,6 +49,39 @@ button {
     border: none;
     border-radius: 7px;
     cursor: pointer;
-    margin: 1rem ;
+    margin: 1rem;
     color: #8f97e4;
 }
+
+@media (max-width : 425px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width : 390px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .buttons {
+        display: flex;
+    }
+}
+
+@media (max-width : 320px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width : 375px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .buttons {
+        display: flex;
+    }
+}
+
